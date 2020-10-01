@@ -9,9 +9,8 @@ import cgi
 
 slave_nums=cgi.FieldStorage().getvalue('slave_num')
 sn=int(slave_nums)
-#print(slave_nums)
-#slave_nums=3(int)
-i=1
+print("No. of Slaves")
+int i=1
 print("Enter IPs of slaves <br>")
 while sn !=0:
 	print("<input name={}>".format(i))
